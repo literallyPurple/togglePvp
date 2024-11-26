@@ -1,4 +1,4 @@
-package com.literallypurple.togglepvp;
+package dev.littleprogrammer.togglepvp;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
