@@ -1,4 +1,4 @@
 
 # Internal data to store pvp mode beyond server restarts, do not change!
 internal-data:
-  pvp-on: true
+  pvp-off: false
