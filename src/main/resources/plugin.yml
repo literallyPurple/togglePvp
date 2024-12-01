@@ -8,3 +8,7 @@ commands:
   pvpToggle:
     description: This toggles pvp on/off
     usage: /<command>
+    aliases:
+      - togglepvp
+      - pvp
+      - toggle
