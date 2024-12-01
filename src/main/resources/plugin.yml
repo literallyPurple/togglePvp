@@ -2,9 +2,13 @@ name: TogglePvp
 version: '${project.version}'
 main: dev.littleprogrammer.togglepvp.Main
 api-version: 1.19
-authors: [ littleprogrammer ]
+authors: [ littleprogrammer, bluenightfury46 ]
 description: This plugin has a toggle command for pvp.
 commands:
   pvpToggle:
     description: This toggles pvp on/off
     usage: /<command>
+    aliases:
+      - togglepvp
+      - pvp
+      - toggle
