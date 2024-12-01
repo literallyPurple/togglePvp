@@ -7,7 +7,7 @@ import org.bukkit.event.entity.EntityDamageByEntityEvent;
 
 public class pvp implements Listener {
 
-    public static boolean onOff = true;
+    public static boolean onOff = false;
 
     @EventHandler
     public void onAttack(EntityDamageByEntityEvent event) {

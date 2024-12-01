@@ -17,15 +17,15 @@ public final class Main extends JavaPlugin {
             this.getLogger().severe("FATAL ERROR: INTERNAL-DATA.PVP-OFF RETURNED NULL");
         }
 
-        
+
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
         getServer().getConsoleSender().sendMessage(ChatColor.RED + "[TogglePvp] Plugin Shutting down!");
-        this.getConfig().set("internal-data.pvp-off", pvp.onOff);
-        this.saveConfig();
+        getConfig().set("internal-data.pvp-off", pvp.onOff);
+        saveConfig();
 
     }
 }
